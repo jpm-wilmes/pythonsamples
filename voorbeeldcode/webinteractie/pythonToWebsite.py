@@ -4,7 +4,7 @@
 # haal de driver binnen
 import http.client
 # definieer de url waar een request naartoe gaat met de juiste poort
-conn = http.client.HTTPSConnection("www.gulpdalvakantiewoningen.nl")
+conn = http.client.HTTPSConnection("www.nu.nl")
 conn.request("GET","/")
 # de response komt in res (html)
 res = conn.getresponse()
