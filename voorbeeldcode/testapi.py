@@ -3,6 +3,8 @@
 # testkey van overheid.io (maandelijks verversen)
 # getvariabele key: ?ovio-api-key=0b8e03b7e03ba082be304878df9c78cfaf13ad91d06fdf2decffd780d77f0c9e
 
+# werkt niet meer na 1/4/23 omdat de overheid dit achter betaalmuur heeft geplaatst
+
 import requests
 
 URL         = 'https://api.overheid.io/voertuiggegevens/'
